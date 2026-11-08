@@ -1,0 +1,17 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "Gerenciador de tarefas",
+  "main": "main.js",
+  "author": "Tarefas",
+  "scripts": {"start": "electron .", "dist": "electron-builder --win portable"},
+  "devDependencies": {"electron": "^33.2.0", "electron-builder": "^25.1.8"},
+  "build": {
+    "appId": "com.meuapp.tarefas",
+    "productName": "Tarefas",
+    "directories": {"output": "dist"},
+    "files": ["main.js", "preload.js", "index.html", "icon.png"],
+    "win": {"target": "portable", "icon": "icon.png"},
+    "portable": {"artifactName": "Tarefas.exe"}
+  }
+}

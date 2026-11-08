@@ -1,0 +1,22 @@
+TAREFAS - aplicativo para Windows
+
+COMO GERAR O .EXE (uma vez so)
+1. Instale o Node.js (versao LTS): https://nodejs.org
+2. Extraia esta pasta e de dois cliques em GERAR-EXE.bat
+3. Aguarde alguns minutos. O programa pronto fica em dist\Tarefas.exe
+   Copie esse arquivo para onde quiser e abra. Nao precisa instalar nada.
+
+Quer so testar antes? De dois cliques em TESTAR-SEM-GERAR.bat.
+
+Se aparecer erro de "symbolic link" ao gerar: clique com o botao direito em
+GERAR-EXE.bat e escolha "Executar como administrador" (ou ative o Modo de
+Desenvolvedor do Windows).
+
+ONDE FICAM SEUS DADOS
+%APPDATA%\tarefas\tarefas.json  (um arquivo que voce pode copiar como backup)
+
+ATALHOS
+Ctrl+N nova tarefa  |  Ctrl+F buscar
+
+Ao fechar a janela, o programa continua na bandeja do sistema (perto do relogio)
+para enviar lembretes. Para sair de verdade: botao direito no icone > Sair.

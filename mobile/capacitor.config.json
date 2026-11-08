@@ -1,0 +1,6 @@
+{
+  "appId": "com.meuapp.tarefas",
+  "appName": "Tarefas",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
